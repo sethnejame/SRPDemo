@@ -1,4 +1,4 @@
-﻿
+﻿using System;
 
 namespace ConsoleUI
 {
@@ -6,21 +6,33 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            StandardMessages.WelcomeMessage();
+            Console.WriteLine("Welcome to my application!");
 
-            Person user = PersonDataCapture.Capture();
+            Person user = new Person();
+            
+            Console.WriteLine("What's your first name?");
+            user.FirstName = Console.ReadLine();
+            
+            Console.WriteLine("What's your last name?");
+            user.FirstName = Console.ReadLine();
 
-            bool isUserValid = PersonValidator.Validate(user);
-
-            if (isUserValid == false)
+            if (string.IsNullOrWhiteSpace(user.FirstName))
             {
-                StandardMessages.EndApplication();
+                Console.WriteLine("You did not give us a valid first name!");
+                Console.ReadLine();
                 return;
             }
+            
+            if (string.IsNullOrWhiteSpace(user.LastName))
+            {
+                Console.WriteLine("You did not give us a valid last name!");
+                Console.ReadLine();
+                return;
+            }
+            
+            Console.WriteLine($"Your username is { user.FirstName.Substring(0,1) }{ user.LastName}");
 
-            AccountGenerator.CreateAccount(user);
-
-            StandardMessages.EndApplication();
+            Console.ReadLine();
         }
     }
 }
