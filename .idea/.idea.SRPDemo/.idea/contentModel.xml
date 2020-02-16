@@ -16,6 +16,7 @@
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
+        <e p="StandardMessages.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="SRPDemo.sln" t="IncludeFlat" />

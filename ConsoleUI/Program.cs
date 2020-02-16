@@ -6,7 +6,7 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to my application!");
+            StandardMessages.WelcomeMessage();
 
             Person user = new Person();
             
@@ -32,7 +32,7 @@ namespace ConsoleUI
             
             Console.WriteLine($"Your username is { user.FirstName.Substring(0,1) }{ user.LastName}");
 
-            Console.ReadLine();
+            StandardMessages.GoodbyeMessage();
         }
     }
 }
