@@ -9,13 +9,13 @@ namespace ConsoleUI
         {
             if (string.IsNullOrWhiteSpace(person.FirstName))
             {
-                StandardMessages.DisplayValidationError(person.FirstName);
+                StandardMessages.DisplayValidationError("first name");
                 return false;
             }
             
             if (string.IsNullOrWhiteSpace(person.LastName))
             {
-                StandardMessages.DisplayValidationError(person.LastName);                return false;
+                StandardMessages.DisplayValidationError("last name");                return false;
             }
 
             return true;
