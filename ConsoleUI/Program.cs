@@ -15,9 +15,12 @@ namespace ConsoleUI
                 Console.WriteLine($"Your username is " +
                                   $"{ user.FirstName.Substring(0,1) }" +
                                   $"{ user.LastName}");
+                StandardMessages.EndApplication();
             }
-            
-            StandardMessages.EndApplication();
+            else
+            {
+                StandardMessages.EndApplication();
+            }
         }
     }
 }
