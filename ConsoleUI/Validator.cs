@@ -9,14 +9,13 @@ namespace ConsoleUI
         {
             if (string.IsNullOrWhiteSpace(person.FirstName))
             {
-                Console.WriteLine("You did not give us a valid first name!");
+                StandardMessages.DisplayValidationError(person.FirstName);
                 return false;
             }
             
             if (string.IsNullOrWhiteSpace(person.LastName))
             {
-                Console.WriteLine("You did not give us a valid last name!");
-                return false;
+                StandardMessages.DisplayValidationError(person.LastName);                return false;
             }
 
             return true;

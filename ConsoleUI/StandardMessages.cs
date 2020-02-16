@@ -23,5 +23,10 @@ namespace ConsoleUI
         {
             Console.WriteLine("What's your last name?");
         }
+        
+        public static void DisplayValidationError(string fieldName)
+        {
+            Console.WriteLine($"You did not give us a valid { fieldName }!");
+        }
     }
 }
