@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f06f764-225d-46f1-8d0e-43b1fc2ef1c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ConsoleUI/StandardMessages.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/StandardMessages.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleUI/AccountGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/ConsoleUI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/ConsoleUI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +16,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ConsoleUI/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConsoleUI/AccountGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConsoleUI/Person.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConsoleUI/Validator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConsoleUI/PersonDataCapture.cs" root0="FORCE_HIGHLIGHTING" />
@@ -23,9 +26,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ConsoleUI/PersonDataCapture.cs" />
+        <option value="$PROJECT_DIR$/ConsoleUI/StandardMessages.cs" />
         <option value="$PROJECT_DIR$/ConsoleUI/Validator.cs" />
         <option value="$PROJECT_DIR$/ConsoleUI/Program.cs" />
-        <option value="$PROJECT_DIR$/ConsoleUI/StandardMessages.cs" />
+        <option value="$PROJECT_DIR$/ConsoleUI/AccountGenerator.cs" />
       </list>
     </option>
   </component>
@@ -86,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581862394403</updated>
-      <workItem from="1581862395936" duration="3494000" />
+      <workItem from="1581862395936" duration="3807000" />
     </task>
     <servers />
   </component>

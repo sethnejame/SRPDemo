@@ -12,10 +12,8 @@ namespace ConsoleUI
 
             if (Validator.Validate(user))
             {
-                Console.WriteLine($"Your username is " +
-                                  $"{ user.FirstName.Substring(0,1) }" +
-                                  $"{ user.LastName}");
-                StandardMessages.EndApplication();
+               AccountGenerator.CreateAccount(user);
+               StandardMessages.EndApplication();
             }
             else
             {

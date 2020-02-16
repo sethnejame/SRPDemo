@@ -7,6 +7,7 @@
     <e p="C:\Users\sethn\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_SRPDemo.808126057.00" t="ExcludeRecursive" />
     <e p="D:\Coding\SingleResponsibilityPrincipleDemo" t="IncludeFlat">
       <e p="ConsoleUI" t="IncludeRecursive">
+        <e p="AccountGenerator.cs" t="Include" />
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="ConsoleUI.csproj" t="IncludeRecursive" />
