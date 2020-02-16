@@ -9,9 +9,8 @@ namespace ConsoleUI
             Console.WriteLine("Welcome to my application!");
         }
             
-        public static void GoodbyeMessage()
+        public static void EndApplication()
         {
-            Console.WriteLine("You're all set! See ya later.");
             Console.ReadLine();
         }
         
