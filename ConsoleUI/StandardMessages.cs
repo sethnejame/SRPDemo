@@ -12,6 +12,17 @@ namespace ConsoleUI
         public static void GoodbyeMessage()
         {
             Console.WriteLine("You're all set! See ya later.");
+            Console.ReadLine();
+        }
+        
+        public static void FirstName()
+        {
+            Console.WriteLine("What's your first name?");
+        }
+        
+        public static void LastName()
+        {
+            Console.WriteLine("What's your last name?");
         }
     }
 }

@@ -8,13 +8,7 @@ namespace ConsoleUI
         {
             StandardMessages.WelcomeMessage();
 
-            Person user = new Person();
-            
-            Console.WriteLine("What's your first name?");
-            user.FirstName = Console.ReadLine();
-            
-            Console.WriteLine("What's your last name?");
-            user.FirstName = Console.ReadLine();
+            var user = PersonDataCapture.CaptureUserInfo();
 
             if (string.IsNullOrWhiteSpace(user.FirstName))
             {
